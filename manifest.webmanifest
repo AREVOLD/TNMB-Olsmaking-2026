@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Ølsmaking | Flaskelista",
-  "short_name": "Ølsmaking",
-  "description": "En personlig oversikt over ølene i årets smaking.",
+  "name": "Ølsmaking | Setlist",
+  "short_name": "TNMB 2026",
+  "description": "En oversikt over ølene i årets smaking.",
   "lang": "no",
   "start_url": "./",
   "scope": "./",
