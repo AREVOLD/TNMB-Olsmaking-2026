@@ -18,13 +18,13 @@ const beers = [
 
 Musikken gir ølet en ekstra dimensjon: de atmosfæriske gitarlinjene fremhever den saftige fruktigheten, mens de rytmiske partiene gir en kontrast som gjør hver slurk mer intens. Dette er kombinasjonen som får både øl og album til å skinne – melodisk, energisk og fylt av karakter.`,
     image: 'images/jester-haze.jpg', palette: ['#4b6650', '#e0b857'], symbol: '☀',
-    description: '',
+    description: 'En lettdrikkelig og hazy New England Pale Ale. En god dose Citra og Mosaic skyller over sansene med tydelige, intense smaker av moden mango, pasjonsfrukt og sitrus. Brygget har en silkemyk munnfølelse og minimal bitterhet, noe som gjør dette til en saftig, fruktig og forfriskende opplevelse i glasset.',
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-jester-haze/6905577'
   },
   {
     id: 'wheat-train', name: 'Wheat Train', style: 'Hefeweizen', abv: '5.6%', temperature: '6–8°C', brewed: '11.07.2026', batch: '',
     image: 'images/wheat-train.jpg', palette: ['#c59545', '#4c3c29'], symbol: '✶',
-    description: 'Klassisk tysk hveteøl med myk munnfølelse, tydelige bananestere og lett krydret fruktighet.\nEn lys og leken weissbier i ren stil.',
+    description: 'Klassisk tysk hveteøl med myk munnfølelse, tydelige bananestere og lett krydret fruktighet. En lys og leken weissbier i ren stil.',
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-wheat-train/6699679'
   },
   {
@@ -37,7 +37,7 @@ Musikken gir ølet en ekstra dimensjon: de atmosfæriske gitarlinjene fremhever 
   {
     id: 'black-arts-and-alchemy', name: 'Black Arts & Alchemy', style: 'English Porter', abv: '5.2%', temperature: '8–12°C', brewed: '', batch: '',
     image: 'images/black-arts-and-alchemy.jpg', palette: ['#352320', '#d1a165'], symbol: '◇',
-    description: 'A dark, malt‑forward porter brewed with a rich blend of pale, brown, chocolate, and crystal malts. Expect notes of roasted cocoa, caramel, and subtle toffee, balanced by the gentle earthiness of East Kent Goldings hops. Smooth body, moderate bitterness, and a deep mahogany hue (63 EBC) make this a classic yet characterful English porter.',
+    description: 'En mørk og maltfokusert porter. Forvent toner av brent kakao, karamell og et subtilt hint av toffee, vakkert balansert av milde og jordaktige toner fra humlen. En fløyelsmyk fylde, moderat bitterhet og mørk i fargen. En klassisk, men karaktersterk engelsk porter.',
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-black-arts-and-alchemy/6522872'
   },
   {
