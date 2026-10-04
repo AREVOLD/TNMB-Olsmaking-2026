@@ -1,6 +1,7 @@
 const beers = [
   {
     id: 'zest-in-peace', name: 'Zest in Peace', style: 'Kölsch', abv: '5%', temperature: '4–6°C', brewed: '30.08.2026', batch: '',
+    soundtrack: 'Jokke & Valentinerne',
     image: 'images/zest-in-peace.jpg', palette: ['#bd653d', '#f3d28b'], symbol: '☼',
     description: 'Zest in Peach er en lys og ren Kölsch brygget med et forsiktig hint av appelsinskall og ferskenpuré. Frukten ligger lavt i miksen og løfter ølet uten å ta over, mens en klassisk tysk malt‑ og humleprofil holder det hele stramt, friskt og lettdrikkelig. Gjæret kjølig med Köln‑gjær for en crisp og ren avslutning. En subtil, leken vri på en tradisjonell Kölsch.',
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-zest-in-peace/6699680'
@@ -13,6 +14,9 @@ const beers = [
   },
   {
     id: 'jester-haze', name: 'Jester Haze', style: 'Pale Ale', abv: '5.5%', temperature: '6–8°C', brewed: '05.09.2026', batch: '',
+    soundtrack: `En juicy NEPA kler den melodiske, drivende energien fra The Jester Race perfekt. De tåkete, tropiske tonene i ølet speiler albumets blanding av melodi og råskap – et møte mellom lys og mørke. Når du løfter glasset, passer det med låter som bygger seg opp i lag, akkurat som ølets fruktige aroma og myke munnfølelse.
+
+Musikken gir ølet en ekstra dimensjon: de atmosfæriske gitarlinjene fremhever den saftige fruktigheten, mens de rytmiske partiene gir en kontrast som gjør hver slurk mer intens. Dette er kombinasjonen som får både øl og album til å skinne – melodisk, energisk og fylt av karakter.`,
     image: 'images/jester-haze.jpg', palette: ['#4b6650', '#e0b857'], symbol: '☀',
     description: '',
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-jester-haze/6905577'
@@ -25,6 +29,7 @@ const beers = [
   },
   {
     id: 'the-apple-freak', name: 'The Apple Freak', style: 'Nordisk Eplesider', abv: '6%', temperature: '4–6°C', brewed: '', batch: '',
+    soundtrack: 'Avatar passer perfekt til denne sideren, spesielt den teatralske, mørke freakshow‑energien fra de tidlige albumene. Den rå, sirkus‑aktige metalstilen matcher uttrykket til sideren.',
     image: 'images/the-apple-freak.jpg', palette: ['#465a3a', '#d8a245'], symbol: '✦',
     description: 'No kings. No crowns. Just apples, kveik and chaos.\n\nPressed by hand. Serve cold. Play strange.',
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-the-apple-freak/6844554'
@@ -43,6 +48,7 @@ const beers = [
   },
   {
     id: 'prince-of-darkness', name: 'Prince of Darkness', style: 'Imperial Stout Belgian Style', abv: '16%', temperature: '12–16°C', brewed: '15.11.2025', batch: '128',
+    soundtrack: 'Prince of Darkness kler mørk og dramatisk musikk med stor atmosfære, akkurat den typen uttrykk som definerer Ozzy Osbourne. Mr. Crowley passer utmerket med sin episke, mørke stemning. Roligere og mer følelsesladde Ozzy‑låter gir en perfekt kontrast til ølets tunge og mørke karakter.',
     image: 'images/prince-of-darkness.jpg', palette: ['#211e24', '#d6b66c'], symbol: '✦',
     description: `This is not just a beer, it’s a resurrection. A beer in honor of the one and only Prince of Darkness: Ozzy Osbourne. It is a liquid tribute to the godfather of heavy metal, forged in the fires of imperial stout intensity and Belgian spiritual depth.
 
@@ -114,6 +120,7 @@ function renderDetail(beer) {
           <div class="fact"><dt>Servering</dt><dd>${beer.temperature}</dd></div>
           <div class="fact"><dt>Bryggedato</dt><dd>${beer.brewed || 'Ikke oppgitt'}</dd></div>
           <div class="fact"><dt>Batch nr.</dt><dd>${beer.batch || 'Ikke oppgitt'}</dd></div>
+          ${beer.soundtrack ? `<div class="fact soundtrack-fact"><dt>Soundtrack</dt><dd>${beer.soundtrack}</dd></div>` : ''}
         </dl>
         <a class="untappd-link" href="${beer.untappd}" target="_blank" rel="noopener noreferrer">
           Finn på Untappd

@@ -144,6 +144,8 @@ h1 {
 .fact { min-height: 49px; display: grid; grid-template-columns: minmax(130px, 1fr) 1fr; align-items: center; gap: 12px; border-bottom: 1px solid var(--line); font-size: 12px; }
 .fact dt { color: var(--muted); }
 .fact dd { margin: 0; font-weight: 600; }
+.soundtrack-fact { grid-template-columns: 1fr; align-items: start; gap: 7px; padding: 14px 0; }
+.soundtrack-fact dd { color: #d0ccc3; font-weight: 400; line-height: 1.7; white-space: pre-line; }
 .untappd-link { display: inline-flex; align-items: center; gap: 7px; margin-top: 24px; color: var(--green); font-size: 12px; font-weight: 700; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .untappd-link svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 
