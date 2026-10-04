@@ -7,7 +7,7 @@ const beers = [
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-zest-in-peace/6699680'
   },
   {
-    id: 'messe-noir', name: 'Messe Noir', style: 'Schwarzbier', abv: '5.4%', temperature: '4–6°C', brewed: '', batch: '',
+    id: 'messe-noir', name: 'Messe Noir', style: 'Schwarzbier', abv: '5.4%', temperature: '4–6°C', brewed: '22.08.2026', batch: '',
     image: 'images/messe-noir.jpg', palette: ['#29242a', '#bc4f48'], symbol: '✦',
     soundtrack: 'Et kullsvarte brygg krever musikk som graver dypt i de mørkeste ritualer. Valget faller på hypnotisk og messende black metal i gaten til Rotting Christ. Med tunge, okkulte rytmer og en messende, teatralsk atmosfære, fungerer dette lydsporet som en sonisk messe som utfyller den intense og mystiske karakteren til ølet.',
     description: 'En klassisk, mørk og elegant tysk Schwarzbier brygget for maksimal lettdrikkelighet. På tross av sitt dype, mørke utseende har ølet en overraskende lett, tørr og forfriskende karakter. Den brente malten gir delikate og rene toner av kaffe og mørk sjokolade i bakgrunnen, helt uten den tunge sødmen du finner i en stout. En crisp og velbalansert opplevelse som beviser at mørkt øl kan være lettdrikkelig.',
@@ -37,7 +37,7 @@ Musikken gir ølet en ekstra dimensjon: de atmosfæriske gitarlinjene fremhever 
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-the-apple-freak/6844554'
   },
   {
-    id: 'black-arts-and-alchemy', name: 'Black Arts & Alchemy', style: 'English Porter', abv: '5.2%', temperature: '8–12°C', brewed: '', batch: '',
+    id: 'black-arts-and-alchemy', name: 'Black Arts & Alchemy', style: 'English Porter', abv: '5.2%', temperature: '8–12°C', brewed: '12.04.2026', batch: '',
     image: 'images/black-arts-and-alchemy.jpg', palette: ['#352320', '#d1a165'], symbol: '◇',
     soundtrack: "Hellripper leverer den perfekte lyden til dette brygget. En eksplosjon av lynrask og skitten black 'n' roll som gir akkurat det rette, mørke drivet til dette ølet.",
     description: 'En mørk og maltfokusert porter. Forvent toner av brent kakao, karamell og et subtilt hint av toffee, vakkert balansert av milde og jordaktige toner fra humlen. En fløyelsmyk fylde, moderat bitterhet og mørk i fargen. En klassisk, men karaktersterk engelsk porter.',
