@@ -128,7 +128,7 @@ function renderDetail(beer) {
           ${beer.soundtrack ? `<div class="fact soundtrack-fact"><dt>Soundtrack</dt><dd>${beer.soundtrack}</dd></div>` : ''}
         </dl>
         <a class="untappd-link" href="${beer.untappd}" target="_blank" rel="noopener noreferrer">
-          Finn på Untappd
+          Untappd
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6m0-6-9 9"/><path d="M18 13v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6"/></svg>
         </a>
       </article>
