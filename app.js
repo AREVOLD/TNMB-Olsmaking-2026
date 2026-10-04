@@ -9,6 +9,7 @@ const beers = [
   {
     id: 'messe-noir', name: 'Messe Noir', style: 'Schwarzbier', abv: '5.4%', temperature: '4–6°C', brewed: '', batch: '',
     image: 'images/messe-noir.jpg', palette: ['#29242a', '#bc4f48'], symbol: '✦',
+    soundtrack: 'Et kullsvarte brygg krever musikk som graver dypt i de mørkeste ritualer. Valget faller på hypnotisk og messende black metal i gaten til Rotting Christ. Med tunge, okkulte rytmer og en messende, teatralsk atmosfære, fungerer dette lydsporet som en sonisk messe som utfyller den intense og mystiske karakteren til ølet.',
     description: 'En klassisk, mørk og elegant tysk Schwarzbier brygget for maksimal lettdrikkelighet. På tross av sitt dype, mørke utseende har ølet en overraskende lett, tørr og forfriskende karakter. Den brente malten gir delikate og rene toner av kaffe og mørk sjokolade i bakgrunnen, helt uten den tunge sødmen du finner i en stout. En crisp og velbalansert opplevelse som beviser at mørkt øl kan være lettdrikkelig.',
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-messe-noir/6844617'
   },
@@ -24,6 +25,7 @@ Musikken gir ølet en ekstra dimensjon: de atmosfæriske gitarlinjene fremhever 
   {
     id: 'wheat-train', name: 'Wheat Train', style: 'Hefeweizen', abv: '5.6%', temperature: '6–8°C', brewed: '11.07.2026', batch: '',
     image: 'images/wheat-train.jpg', palette: ['#c59545', '#4c3c29'], symbol: '✶',
+    soundtrack: 'Her hadde tradisjonell tysk ompamusikk og tyrolerstemning passet perfekt, men det får dere ikke i kveld! I stedet ruller Wheat Train videre med de tyske thrash metal-legendene i Tankard. Med sitt intense tempo og kompromissløse fokus på fest, moro og ren øl-kjærlighet, leverer de det ultimate lydsporet til dette brygget. Ingen tyrolerhatter, bare pur metal!',
     description: 'Klassisk tysk hveteøl med myk munnfølelse, tydelige bananestere og lett krydret fruktighet. En lys og leken weissbier i ren stil.',
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-wheat-train/6699679'
   },
@@ -37,12 +39,14 @@ Musikken gir ølet en ekstra dimensjon: de atmosfæriske gitarlinjene fremhever 
   {
     id: 'black-arts-and-alchemy', name: 'Black Arts & Alchemy', style: 'English Porter', abv: '5.2%', temperature: '8–12°C', brewed: '', batch: '',
     image: 'images/black-arts-and-alchemy.jpg', palette: ['#352320', '#d1a165'], symbol: '◇',
+    soundtrack: "Hellripper leverer den perfekte lyden til dette brygget. En eksplosjon av lynrask og skitten black 'n' roll som gir akkurat det rette, mørke drivet til dette ølet.",
     description: 'En mørk og maltfokusert porter. Forvent toner av brent kakao, karamell og et subtilt hint av toffee, vakkert balansert av milde og jordaktige toner fra humlen. En fløyelsmyk fylde, moderat bitterhet og mørk i fargen. En klassisk, men karaktersterk engelsk porter.',
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-black-arts-and-alchemy/6522872'
   },
   {
     id: 'forge-of-the-nutons', name: 'Forge of the Nutons', style: 'Belgian Tripel', abv: '10%', temperature: '8–12°C', brewed: '12.08.2026', batch: '',
     image: 'images/forge-of-the-nutons.jpg', palette: ['#343332', '#d19e4b'], symbol: '⚒',
+    soundtrack: 'Batushka leverer det perfekte lydsporet til denne episke trippelen. En fengende, men dypt ritualistisk blanding av tunge black metal-riff og messende munker. Musikken drar linjene direkte tilbake til ølstilens klosteropphav, bare med et bekmørkt og monumentalt slør som kler de massive 10 prosentene i glasset.',
     description: 'En mektig og dypgyllen belgisk trippel som klokker inn på solide 10 % alkohol. Brygget er preget av en kompleks og tradisjonsrik belgisk gjærprofil som leverer herlige toner av krydder og fruktige estere. På tross av sin massive styrke har den en elegant, tørr og varmende avslutning med en velbalansert bitterhet.',
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-forge-of-the-nutons/6918664'
   },
