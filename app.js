@@ -1,7 +1,7 @@
 const beers = [
   {
     id: 'zest-in-peace', name: 'Zest in Peace', style: 'Kölsch', abv: '5%', temperature: '4–6°C', brewed: '30.08.2026', batch: '',
-    soundtrack: 'Jokke & Valentinerne',
+    soundtrack: 'En lys og lett Kölsch som glir ned like ukomplisert som en klassisk Jokke låt. Hintet av appelsin gir akkurat den lille oppturen du trenger, og minner deg på at livet rusler videre selv når det går litt på tverke. Akkurat som Jokke & Valentinerne fanger dette brygget den perfekte balansen mellom det bittersøte og det genuint oppløftende. Ingen jålete fakter, bare ekte vare.',
     image: 'images/zest-in-peace.jpg', palette: ['#bd653d', '#f3d28b'], symbol: '☼',
     description: 'Zest in Peach er en lys og ren Kölsch brygget med et forsiktig hint av appelsinskall og ferskenpuré. Frukten ligger lavt i miksen og løfter ølet uten å ta over, mens en klassisk tysk malt‑ og humleprofil holder det hele stramt, friskt og lettdrikkelig. Gjæret kjølig med Köln‑gjær for en crisp og ren avslutning. En subtil, leken vri på en tradisjonell Kölsch.',
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-zest-in-peace/6699680'
@@ -119,7 +119,6 @@ function renderDetail(beer) {
           <div class="fact"><dt>Alkohol</dt><dd>${beer.abv}</dd></div>
           <div class="fact"><dt>Servering</dt><dd>${beer.temperature}</dd></div>
           <div class="fact"><dt>Bryggedato</dt><dd>${beer.brewed || 'Ikke oppgitt'}</dd></div>
-          <div class="fact"><dt>Batch nr.</dt><dd>${beer.batch || 'Ikke oppgitt'}</dd></div>
           ${beer.soundtrack ? `<div class="fact soundtrack-fact"><dt>Soundtrack</dt><dd>${beer.soundtrack}</dd></div>` : ''}
         </dl>
         <a class="untappd-link" href="${beer.untappd}" target="_blank" rel="noopener noreferrer">
