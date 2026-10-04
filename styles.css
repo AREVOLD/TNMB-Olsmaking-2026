@@ -87,7 +87,7 @@ h1 {
   line-height: 1.02;
 }
 
-.intro-copy { max-width: 380px; margin: 16px 0 35px; color: var(--muted); font-size: 20px; line-height: 1.45; }
+.intro-copy { max-width: 380px; margin: 16px 0 35px; color: #c5423f; font-size: 20px; line-height: 1.45; }
 .list-meta { display: flex; justify-content: space-between; padding-bottom: 12px; border-bottom: 1px solid var(--ink); }
 .list-meta span:last-child { color: var(--muted); }
 
