@@ -9,7 +9,7 @@ const beers = [
   {
     id: 'messe-noir', name: 'Messe Noir', style: 'Schwarzbier', abv: '5.4%', temperature: '4–6°C', brewed: '', batch: '',
     image: 'images/messe-noir.jpg', palette: ['#29242a', '#bc4f48'], symbol: '✦',
-    description: 'Store it behind the altar. Before the black mass starts.',
+    description: 'En klassisk, mørk og elegant tysk Schwarzbier brygget for maksimal lettdrikkelighet. På tross av sitt dype, mørke utseende har ølet en overraskende lett, tørr og forfriskende karakter. Den brente malten gir delikate og rene toner av kaffe og mørk sjokolade i bakgrunnen, helt uten den tunge sødmen du finner i en stout. En crisp og velbalansert opplevelse som beviser at mørkt øl kan være lettdrikkelig.',
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-messe-noir/6844617'
   },
   {
@@ -31,7 +31,7 @@ Musikken gir ølet en ekstra dimensjon: de atmosfæriske gitarlinjene fremhever 
     id: 'the-apple-freak', name: 'The Apple Freak', style: 'Nordisk Eplesider', abv: '6%', temperature: '4–6°C', brewed: '', batch: '',
     soundtrack: 'Avatar passer perfekt til denne sideren, spesielt den teatralske, mørke freakshow‑energien fra de tidlige albumene. Den rå, sirkus‑aktige metalstilen matcher uttrykket til sideren.',
     image: 'images/the-apple-freak.jpg', palette: ['#465a3a', '#d8a245'], symbol: '✦',
-    description: 'No kings. No crowns. Just apples, kveik and chaos.\n\nPressed by hand. Serve cold. Play strange.',
+    description: 'En kompromissløs og 100 % naturlig håndverkssider hvor absolutt alt er sanket, presset og bearbeidet for hånd. Sideren er gjæret på tradisjonell norsk Kveik-gjær, noe som gir en unik og karakterfull dybde til den friske frukten. Resultatet er et vilt, ærlig og dønn ekte brygg, stappfullt av saftig eplesmak og rå lidenskap.',
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-the-apple-freak/6844554'
   },
   {
@@ -43,7 +43,7 @@ Musikken gir ølet en ekstra dimensjon: de atmosfæriske gitarlinjene fremhever 
   {
     id: 'forge-of-the-nutons', name: 'Forge of the Nutons', style: 'Belgian Tripel', abv: '10%', temperature: '8–12°C', brewed: '12.08.2026', batch: '',
     image: 'images/forge-of-the-nutons.jpg', palette: ['#343332', '#d19e4b'], symbol: '⚒',
-    description: 'Forged in fire. Tempered by time. Raised by yeast. Gather the Nutons. Drink with honor. Belgian Tripel forged in the dark.',
+    description: 'En mektig og dypgyllen belgisk trippel som klokker inn på solide 10 % alkohol. Brygget er preget av en kompleks og tradisjonsrik belgisk gjærprofil som leverer herlige toner av krydder og fruktige estere. På tross av sin massive styrke har den en elegant, tørr og varmende avslutning med en velbalansert bitterhet.',
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-forge-of-the-nutons/6918664'
   },
   {
