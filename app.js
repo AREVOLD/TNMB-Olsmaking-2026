@@ -54,11 +54,11 @@ Musikken gir ølet en ekstra dimensjon: de atmosfæriske gitarlinjene fremhever 
     id: 'prince-of-darkness', name: 'Prince of Darkness', style: 'Imperial Stout Belgian Style', abv: '16%', temperature: '12–16°C', brewed: '15.11.2025', batch: '128',
     soundtrack: 'Prince of Darkness kler mørk og dramatisk musikk med stor atmosfære, akkurat den typen uttrykk som definerer Ozzy Osbourne. Mr. Crowley passer utmerket med sin episke, mørke stemning. Roligere og mer følelsesladde Ozzy‑låter gir en perfekt kontrast til ølets tunge og mørke karakter.',
     image: 'images/prince-of-darkness.jpg', palette: ['#211e24', '#d6b66c'], symbol: '✦',
-    description: `This is not just a beer, it’s a resurrection. A beer in honor of the one and only Prince of Darkness: Ozzy Osbourne. It is a liquid tribute to the godfather of heavy metal, forged in the fires of imperial stout intensity and Belgian spiritual depth.
+    description: `Dette er ikke bare et øl, det er en gjenoppstandelse. Et brygg til ære for Prince of Darkness, Ozzy Osbourne. En flytende hyllest til heavy metal-gudfaren, smidd i flammene av en intens imperial stout og belgisk åndelig dybde.
 
-  Crafted with roasted malts, dark candi syrup, and whisky-soaked oak, it carries the weight of shadow and the spark of madness. Fermented with both abbey and champagne yeast, then aged for several months, it emerges as a dark incantation, powerful, complex, and unapologetically loud.
+Brygget med brent malt, mørk kandissirup og whiskymarinert eik, bærer det vekten av skyggene og et snev av galskap. Gjæret med både kloster- og champagnegjær, og deretter lagret i flere måneder, fremstår det som en mørk besvergelse, kraftfullt og komplekst.
 
-  Expect waves of chocolate, burnt caramel, and espresso, pierced by haunting esters and a whisper of spice. The oak adds ritualistic depth, while the high ABV delivers a punch worthy of a scream from the stage.`,
+Forvent bølger av sjokolade, brent karamell og espresso, gjennomboret av hjemsøkende estere og et hint av krydder. Eiken tilfører en ritualistisk dybde, mens den høye alkoholprosenten leverer et slag verdig et skrik fra scenekanten.`,
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-prince-of-darkness/6637040'
   }
 ];
