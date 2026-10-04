@@ -14,7 +14,7 @@ const beers = [
     untappd: 'https://untappd.com/b/tnmb-true-norwegian-metal-brewers-messe-noir/6844617'
   },
   {
-    id: 'jester-haze', name: 'Jester Haze', style: 'Pale Ale', abv: '5.5%', temperature: '6–8°C', brewed: '05.09.2026', batch: '',
+    id: 'jester-haze', name: 'Jester Haze', style: 'New England Pale Ale', abv: '5.5%', temperature: '6–8°C', brewed: '05.09.2026', batch: '',
     soundtrack: `En juicy NEPA kler den melodiske, drivende energien fra The Jester Race perfekt. De tåkete, tropiske tonene i ølet speiler albumets blanding av melodi og råskap – et møte mellom lys og mørke. Når du løfter glasset, passer det med låter som bygger seg opp i lag, akkurat som ølets fruktige aroma og myke munnfølelse.
 
 Musikken gir ølet en ekstra dimensjon: de atmosfæriske gitarlinjene fremhever den saftige fruktigheten, mens de rytmiske partiene gir en kontrast som gjør hver slurk mer intens. Dette er kombinasjonen som får både øl og album til å skinne – melodisk, energisk og fylt av karakter.`,
