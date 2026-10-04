@@ -8,6 +8,7 @@
   --line: #33332f;
   --green: #a8bd8b;
   --gold: #d9a44e;
+  --tnmb-red: #ff0000;
   --serif: 'Playfair Display', Georgia, serif;
   --sans: 'DM Sans', 'Helvetica Neue', sans-serif;
 }
@@ -92,9 +93,9 @@ h1 {
 .intro-copy {
   max-width: 760px;
   margin: 12px 0 35px;
-  color: #d93e34;
+  color: var(--tnmb-red);
   font-family: Impact, 'Arial Black', sans-serif;
-  font-size: clamp(2.15rem, 4vw, 4.55rem);
+  font-size: clamp(1.4rem, 2.5vw, 2.5rem);
   font-weight: 700;
   line-height: 0.9;
   letter-spacing: 0.04em;
@@ -170,7 +171,7 @@ h1 {
   .page-shell { width: calc(100% - 40px); }
   .intro { padding-top: 38px; }
   h1 { font-size: 48px; }
-  .intro-copy { margin-bottom: 27px; }
+  .intro-copy { margin-bottom: 27px; font-size: 24px; }
   .beer-list { grid-template-columns: 1fr; }
   .beer-card { min-height: 112px; padding-top: 12px; padding-bottom: 12px; }
   .label-thumb { width: 68px; height: 84px; flex-basis: 68px; }
