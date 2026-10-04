@@ -72,7 +72,7 @@ button { color: inherit; }
 .intro { padding: 54px 0 25px; }
 
 .eyebrow, .list-meta, .list-footer, .detail-label {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -82,12 +82,12 @@ button { color: inherit; }
 h1 {
   margin: 0;
   font-family: var(--serif);
-  font-size: 64px;
+  font-size: 52px;
   font-weight: 500;
   line-height: 1.02;
 }
 
-.intro-copy { max-width: 380px; margin: 16px 0 35px; color: var(--muted); font-size: 14px; line-height: 1.65; }
+.intro-copy { max-width: 380px; margin: 16px 0 35px; color: var(--muted); font-size: 20px; line-height: 1.45; }
 .list-meta { display: flex; justify-content: space-between; padding-bottom: 12px; border-bottom: 1px solid var(--ink); }
 .list-meta span:last-child { color: var(--muted); }
 

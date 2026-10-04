@@ -93,7 +93,8 @@ function useLabelFallback(event) {
 }
 
 function renderList() {
-  document.querySelector('#beer-count').textContent = `${String(beers.length).padStart(2, '0')} ØL`;
+  const beerCount = document.querySelector('#beer-count');
+  if (beerCount) beerCount.textContent = '';
   beerList.innerHTML = beers.map((beer) => `
     <button class="beer-card" type="button" data-beer-id="${beer.id}" aria-label="Vis detaljer for ${beer.name}">
       <img class="label-thumb" ${labelImageAttributes(beer)} alt="Etikett for ${beer.name}">
