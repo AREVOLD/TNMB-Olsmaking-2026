@@ -1,5 +1,27 @@
-const CACHE_NAME = 'flaskelista-v32';
+const CACHE_NAME = 'flaskelista-v33';
 const APP_SHELL = ['./', './index.html', './styles.css', './app.js', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png', './apple-touch-icon.png', './images/forge-of-the-nutons.jpg', './images/black-arts-and-alchemy.jpg', './images/the-apple-freak.jpg', './images/wheat-train.jpg', './images/jester-haze.jpg', './images/zest-in-peace.jpg', './images/messe-noir.jpg', './images/tnmb.png', './images/tnmb-192.png', './images/tnmb-512.png'];
+
+async function networkFirst(request) {
+  try {
+    const response = await fetch(request);
+    if (response.ok) {
+      const cache = await caches.open(CACHE_NAME);
+      cache.put(request, response.clone());
+    }
+    return response;
+  } catch (error) {
+    const cached = await caches.match(request);
+    if (cached) {
+      return cached;
+    }
+
+    if (request.mode === 'navigate') {
+      return caches.match('./index.html');
+    }
+
+    return Response.error();
+  }
+}
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)));
@@ -15,13 +37,5 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET' || new URL(event.request.url).origin !== self.location.origin) return;
-  event.respondWith(
-    caches.match(event.request).then((cached) => cached || fetch(event.request).then((response) => {
-      if (response.ok) {
-        const copy = response.clone();
-        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
-      }
-      return response;
-    }).catch(() => caches.match('./index.html')))
-  );
+  event.respondWith(networkFirst(event.request));
 });
