@@ -66,6 +66,7 @@ Forvent bÃ¸lger av sjokolade, brent karamell og espresso, gjennomboret av hjemsÃ
 const beerList = document.querySelector('#beer-list');
 const homeView = document.querySelector('#home-view');
 const detailView = document.querySelector('#detail-view');
+const ticketView = document.querySelector('#ticket-view');
 const toast = document.querySelector('#toast');
 const installButton = document.querySelector('#install-button');
 const isIosDevice = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
@@ -141,8 +142,17 @@ function renderDetail(beer) {
 
 function showHome() {
   detailView.hidden = true;
+  ticketView.hidden = true;
   homeView.hidden = false;
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function showTickets() {
+  homeView.hidden = true;
+  detailView.hidden = true;
+  ticketView.hidden = false;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  document.querySelector('#ticket-back-button').focus({ preventScroll: true });
 }
 
 function showToast(message) {
@@ -164,6 +174,10 @@ detailView.addEventListener('error', useLabelFallback, true);
 
 detailView.addEventListener('click', (event) => {
   if (event.target.closest('#back-button')) showHome();
+});
+
+ticketView.addEventListener('click', (event) => {
+  if (event.target.closest('#ticket-back-button')) window.location.hash = '#home';
 });
 
 window.addEventListener('beforeinstallprompt', (event) => {
@@ -189,11 +203,16 @@ window.addEventListener('appinstalled', () => {
 });
 
 window.addEventListener('hashchange', () => {
-  if (window.location.hash !== '#home') return;
-  showHome();
+  if (window.location.hash === '#tickets') {
+    showTickets();
+  } else {
+    showHome();
+  }
 });
 
 renderList();
+
+if (window.location.hash === '#tickets') showTickets();
 
 if (isIosDevice && !navigator.standalone) installButton.hidden = false;
 
